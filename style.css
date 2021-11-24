@@ -1,0 +1,19 @@
+/* Man kan använda en SVG-fil som bakgrundsbild. */
+/* body {
+  background-image: url("bild.svg");
+  background-repeat: repeat;
+  background-size: 100px 100px;
+} */
+
+/*
+  Man kan styla, även animera, sin SVG med CSS.
+*/
+circle {
+  fill-opacity: 0.5;
+  stroke: aqua;
+  transition: fill 1s ease-in;
+}
+
+circle:hover {
+  fill: red
+}
